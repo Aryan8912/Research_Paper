@@ -13,3 +13,11 @@ reward. Similar to the critic training in most RL algorithms,
 we construct the value target z
 jt by TD-λ (Sutton, 1988) or MC estimate (Sutton & Barto, 2018) on each single step t .The value network is optimized by mean squared error:
 $`L(\varphi) = \mathbb{E}_{D} \left[ \sum_{j=1}^{T-1} \sum_{t=0}^{j-1} \left\| v_\varphi(s_{j, 0:t} | x_j) - z_{j, t} \right\|^2_2 \right]`$
+
+
+The ORM $`\hat{r}_\varphi(y_{0:T-1} | x_{0:L-1})`$ is learned with the same objective. Training an accurate value function and ORM is quite crucial for the tree-search process as they provide the main guidance. We will further illustrate how to learn a reliable value function and ORM in our experiment section.
+
+$`a \sim \frac{N(s_t, a)^{1/\tau}}{\sum_b N(s_t, b)^{1/\tau}}`$
+
+ORM-Max. Given an outcome reward model, the aggregation can choose the answer f with maximum final reward $`f^* = \arg\max_f \sum_{y_j} \mathbb{1}_{\text{final ans}(y_j) = f}`$ ORM-Vote. Given an outcome reward model, the aggregation can choose the answer f with the sum of rewards,
+namely $`f^* = \text{final ans}\left(\arg\max_{y_j} \hat{r}_\varphi(y_j | x_j)\right)`$
