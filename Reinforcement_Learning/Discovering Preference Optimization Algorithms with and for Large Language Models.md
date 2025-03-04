@@ -22,3 +22,5 @@ f\left(
 $`\rho = \log \frac{\pi_\theta(y_w|x)}{\pi_{\text{ref}}(y_w|x)} - \log \frac{\pi_\theta(y_l|x)}{\pi_{\text{ref}}(y_l|x)}`$
 
 $`\pi^*(y|x) = Z(x)^{-1} \pi_{\text{ref}}(y|x) \exp\left(\beta^{-1} r_\varphi(y, x)\right)`$
+
+![Screenshot (170)](https://github.com/user-attachments/assets/e3ce7b98-6bf4-44c9-a662-99f15728f7e7)
