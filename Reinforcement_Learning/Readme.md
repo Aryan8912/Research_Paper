@@ -7,3 +7,5 @@
 
  `Policy`:  A policy defines the learning agent's behavior at a given time.
  '
+
+![image](https://github.com/user-attachments/assets/c2a0a0b1-ce6a-4a8c-b99c-b9298af45778)
