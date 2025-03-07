@@ -9,3 +9,20 @@
  '
 
 ![image](https://github.com/user-attachments/assets/c2a0a0b1-ce6a-4a8c-b99c-b9298af45778)
+
+
+## Markov Decision Processes
+
+## Planning by Dynamic Programming
+
+## Model-Free Prediction
+
+## Model-Free Control
+
+## Value Function Approximation
+
+## Policy Gradient Methods
+
+## Integrating Learning and Planning
+
+## Exploration and Exploitation
