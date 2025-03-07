@@ -11,7 +11,7 @@
 ![image](https://github.com/user-attachments/assets/c2a0a0b1-ce6a-4a8c-b99c-b9298af45778)
 
 
-**bellman equation**
+`**bellman equation**`
 ![image](https://github.com/user-attachments/assets/db5f22fe-9143-442d-bf0f-6cd6300427c6)
 
 ## Markov Decision Processes
