@@ -22,6 +22,43 @@
 
 ## Model-Free Control
 
+ Model-Free Reinforcement Learning
+ 
+ Uses and Applications of Model-Free Control
+
+ On and Off-Policy Learning
+ Generalized Policy Iteration
+ Generalized Policy Iteration with Monte-Carlo Evaluation
+ Example of Greedy Action Selection
+ Epsilon Greedy Exploration
+ Epsilon Greedy Policy Improvement
+
+ Monte-Carlo Policy Iteration
+ Monte-Carlo Control
+ GLIE (Greedy in the Limit with Infinite Exploration)
+ GLIE Monte-Carlo Control
+ Monte-Carlo Control in Blackjack
+
+ MC vs TD Control
+ Updating Action-Value Functions with Sarsa
+ Sarsa Algorithm for On-Po licy Control
+ Convergence of Sarsa
+ Windy Gridworld Example
+ n-Step Sarsa
+
+ Forward View Sarsa(lambda)
+ Backward View Sarsa(lambda)
+ Sarsa(lambda) Algorithm
+ Sarsa(lambda) Gridworld Example
+
+ Off-Policy Learning
+ Importance Sampling
+ Q-learning
+ Off-Policy Control with Q-learning
+ Q-learning Control Algorithm (SARSAMAX)
+
+ Relationship Between DP and TD
+
 ## Value Function Approximation
 
 ## Policy Gradient Methods
