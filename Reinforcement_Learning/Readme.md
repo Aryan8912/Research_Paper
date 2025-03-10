@@ -83,6 +83,9 @@
 
 ## Policy Gradient Methods
 
+![image](https://github.com/user-attachments/assets/579dcaad-e150-4017-a00b-61305f3bdb1b)
+
+
 ## Integrating Learning and Planning
 
 ## Exploration and Exploitation
