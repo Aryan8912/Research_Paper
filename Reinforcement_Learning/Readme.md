@@ -85,6 +85,13 @@
 
 ![image](https://github.com/user-attachments/assets/579dcaad-e150-4017-a00b-61305f3bdb1b)
 
+`Policy Objective Functions:`
+
+$`J_1(\theta) = V_{\pi_\theta}(s_1) = \mathbb{E}_{\pi_\theta} [v_1]`$ 
+
+$`J_{\text{avV}}(\theta) = \sum_{s} d_{\pi_\theta}(s) V_{\pi_\theta}(s)`$
+
+$`J_{\text{avR}}(\theta) = \sum_{s} d_{\pi_\theta}(s) \sum_{a} \pi_\theta(s, a) R^a_s`$
 
 ## Integrating Learning and Planning
 
