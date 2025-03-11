@@ -93,6 +93,17 @@ $`J_{\text{avV}}(\theta) = \sum_{s} d_{\pi_\theta}(s) V_{\pi_\theta}(s)`$
 
 $`J_{\text{avR}}(\theta) = \sum_{s} d_{\pi_\theta}(s) \sum_{a} \pi_\theta(s, a) R^a_s`$
 
+
+`Score Function`:
+
+Likelihood ratios exploit the following identity
+
+$`\nabla_{\theta} \pi_{\theta}(s, a) = \pi_{\theta}(s, a) 
+\frac{\nabla_{\theta} \pi_{\theta}(s, a)}{\pi_{\theta}(s, a)} 
+= \pi_{\theta}(s, a) \nabla_{\theta} \log \pi_{\theta}(s, a)`$
+
+The score function is $`\nabla_{\theta} \log \pi_{\theta}(s, a)`$
+
 ## Integrating Learning and Planning
 
 ## Exploration and Exploitation
