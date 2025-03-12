@@ -104,6 +104,21 @@ $`\nabla_{\theta} \pi_{\theta}(s, a) = \pi_{\theta}(s, a)
 
 The score function is $`\nabla_{\theta} \log \pi_{\theta}(s, a)`$
 
+### Compatible Function Approximation
+
+Value function approximator is compatible to the policy
+
+$`\nabla_w Q_w(s, a) = \nabla_{\theta} \log \pi_{\theta}(s, a)`$
+
+Value function parameters w minimise the mean-squared error
+
+$`\varepsilon = \mathbb{E}_{\pi_{\theta}} \left[ \left(Q_{\pi_{\theta}}(s, a) - Q_w(s, a) \right)^2 \right]`$
+
+Then the policy gradient is exact,
+
+$`\nabla_{\theta} J(\theta) = \mathbb{E}_{\pi_{\theta}} 
+\left[ \nabla_{\theta} \log \pi_{\theta}(s, a) Q_w(s, a) \right]`$
+
 ## Integrating Learning and Planning
 
 ## Exploration and Exploitation
