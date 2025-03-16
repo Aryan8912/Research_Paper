@@ -122,3 +122,6 @@ $`\nabla_{\theta} J(\theta) = \mathbb{E}_{\pi_{\theta}}
 ## Integrating Learning and Planning
 
 ## Exploration and Exploitation
+
+![Screenshot (193)](https://github.com/user-attachments/assets/b75281a7-b92d-480a-8754-b45b36481358)
+
