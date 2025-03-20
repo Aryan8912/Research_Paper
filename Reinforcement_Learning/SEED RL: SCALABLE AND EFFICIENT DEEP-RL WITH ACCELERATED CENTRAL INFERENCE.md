@@ -71,4 +71,5 @@ It achieves this by asynchronously collecting experience and training, sometimes
 ![Screenshot (214)](https://github.com/user-attachments/assets/d05d3e57-e93e-43de-a9ce-ee949ffaf567)
 
 
-![image](https://github.com/user-attachments/assets/433e962a-9d6c-4196-ae8b-a4b8ba9ed090)
+![Screenshot (213)](https://github.com/user-attachments/assets/f2d434dd-5ab8-40c5-9f9b-886aa1ed04fc)
+
