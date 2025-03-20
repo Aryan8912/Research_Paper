@@ -1,6 +1,7 @@
 # SEED RL: SCALABLE AND EFFICIENT DEEP-RL WITH ACCELERATED CENTRAL INFERENCE
 
  IMPALA architecture which is used in various forms in Ape-X, OpenAI Rapid and others
+ 
 ![Screenshot (209)](https://github.com/user-attachments/assets/81dbe82f-88ae-4ec1-b749-f7e31898ae62)
 
 
@@ -49,6 +50,9 @@ The process continues iteratively, ensuring that the model is trained asynchrono
 Reporting and Checkpointing
 
 The learner periodically saves checkpoints and logs performance metrics.
+
+a trajectory is fully unrolled it is added to a FIFO queue or replay buffer and later sampled by data prefetching threads. Finally, the trajectories are pushed to a device buffer for each of the TPU cores taking part in training. The training thread (the main Python thread) takes the prefetched trajectories, computes gradients using the training TPU cores and applies the gradients on the models of all TPU cores (inference and training) synchronously. The ratio of inference and training cores can be adjusted for maximum throughput and utilization. The architecture scales to a TPU pod (2048 cores) by roundrobin assigning actors to TPU host machines, and having separate inference threads for each TPU host. When actors wait for a response from the learner, they are idle so in order to fully utilize the machines, we run multiple environments on a single actor.
+
 
 Understanding "Near On-Policy" Training
 
