@@ -59,3 +59,16 @@ Understanding "Near On-Policy" Training
 Unlike traditional on-policy RL (e.g., A2C), where the agent is trained on the latest data only, SEED maintains a near on-policy approach by efficiently using past trajectories.
 
 It achieves this by asynchronously collecting experience and training, sometimes incorporating replay buffers to stabilize learning.
+
+![Screenshot (212)](https://github.com/user-attachments/assets/ac739727-465c-47e0-978b-59dc7207b51d)
+
+![Screenshot (216)](https://github.com/user-attachments/assets/8dc165c3-9df8-4af1-9144-5d55b2256205)
+
+
+![Screenshot (215)](https://github.com/user-attachments/assets/ecff7768-aa63-4195-959d-ea471b57b6cf)
+
+
+![Screenshot (214)](https://github.com/user-attachments/assets/d05d3e57-e93e-43de-a9ce-ee949ffaf567)
+
+
+![image](https://github.com/user-attachments/assets/433e962a-9d6c-4196-ae8b-a4b8ba9ed090)
